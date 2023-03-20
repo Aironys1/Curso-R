@@ -1,0 +1,14 @@
+install.packages('dplyr')
+install.packages('tibble')
+install.packages('tidyr')
+install.packages('purrr')
+install.packages('ggplot2')
+
+require(dplyr)
+require(tibble)
+require(tidyr)
+require(purrr)
+require(ggplot2)
+
+df <- read.csv("annual-enterprise-survey-2021-financial-year-provisional-csv.csv",stringsAsFactors = FALSE)
+str(df)

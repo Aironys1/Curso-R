@@ -1,0 +1,70 @@
+10 + 25
+nome = "Aironys"
+
+a <- 50
+b <- 10
+
+
+getwd()
+
+hist(mtcars$mpg) # Exibindo um Histograma
+
+sobrenome <-  'Garrido'
+
+a + b
+
+# Raiz quadrada
+sqrt(25)
+
+# Operadores lógicos
+
+10 > 50 # False
+5 != 2  # Diferente é falso
+
+
+# Criando Objetos
+c <-  100
+d <- 200
+a <- c
+
+# Vetor permite armazenar um conjunto de dados da mesma classe
+vtexto <- c("Nome", "Sobrenome", "Palmeiras", "Brasil")
+vtexto
+
+vnumero <- c(10,100,25,4)
+vnumero
+
+valor <-  c(15.35,45.99,9.98,10.05)
+valor
+
+id <-  c(1,2,3,4)
+id
+
+# Data Frame
+
+dados <-  data.frame(id = id, numero = vnumero, texto = vtexto, valor = valor)
+dados
+
+
+# Instalação de pacotes
+
+# pacotes dplyr
+install.packages("dplyr")
+
+# pacotes tidyverse
+install.packages("tidyverse")
+
+# 
+install.packages("ggplot2")
+
+# library para carregar o pacote no R
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+
+
+
+
+
+
+
